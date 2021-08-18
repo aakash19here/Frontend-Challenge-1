@@ -1,0 +1,125 @@
+@use '../util' as *;
+main{
+    @include breakpoint-down(small){
+        // width: rem(372);
+        // height: rem(709);
+        width: 100%;
+        padding: rem(10) ;
+        margin: 0 auto;
+    }
+    @include breakpoint-down(medium){
+        width: 100%;
+        height: 100vh;
+
+    }
+    height: rem(810);
+    width: rem(1300);
+    background-image: url('../../../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    border-radius: rem(10);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: rem(70) 0;  
+}
+
+.container{
+    border-radius: rem(15);
+    overflow: hidden;
+    @include breakpoint-down(small){
+        padding: 0;
+    }
+}
+.card{
+    a{
+        color: hsl(245, 75%, 52%);
+    }
+    // Mobile
+    @include breakpoint-down(small){
+        width: rem(340) !important;
+        height: rem(690) !important;
+    }
+
+    //Tablet
+    @include breakpoint-down(medium){
+        width: rem(450);
+        height: rem(790);
+        margin: auto 0;
+    }
+
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.116);
+    width: rem(405);
+    height: rem(700);
+    &__title{
+        font-weight: 900;
+        margin-top: rem(40);
+        margin-bottom: rem(30);
+        text-align: center;
+        font-size: rem(25);
+    }
+    &__summary{
+        text-align: center;
+        font-weight: 500;
+        color:var(--text-color);
+        margin-bottom: rem(45);
+    }
+   
+    &__plan{
+        background-color: hsl(225, 100%, 98%);
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+        border-radius: rem(5);
+        width: rem(322);
+        height: rem(82);
+        justify-content: space-between;
+        align-items: center;
+        &--image{
+            padding-left: rem(20);
+        }
+        &--description{
+            position: absolute;
+            font-weight: 500;
+            left: 25%;
+            &--cost{
+                color: gray;
+            }
+        }
+        &--change{
+            padding-right: rem(20);
+        }
+    }
+
+    &__payment{
+        margin-top: rem(40);
+        &--btn{
+            background-color: hsl(245, 75%, 52%);
+            
+            border-radius: rem(10);
+            width: rem(320);
+            height: rem(44);
+            margin: 0 auto;
+            box-shadow: 0px 5px 10px hsl(245, 55%, 66%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                color: white;
+                text-decoration: none;
+                font-weight: 700;
+            }
+        }
+        
+        
+        &--cancel{
+            padding-top: rem(30);
+            text-align: center;
+            a{
+                color: gray;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
