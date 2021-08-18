@@ -1,2 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");:root{--font-body:"Red Hat Display",sans-serif;--white:#fff;--black:#000;--text-color:gray}html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{font-family:var(--font-body);margin:0;padding:4.375rem 1.875rem;scroll-behavior:smooth}@media (max-width:39.9375em){body{padding:0}}h1,h2,h3{line-height:1.1;margin-top:0}a,a:active,a:visited{text-decoration:underline}.container{margin:0 auto;max-width:69.375rem;padding:0 1.5rem}@media (min-width:71.875em){.container{padding:0;-webkit-transform:translate(0);transform:translate(0)}}main{background-image:url(../../../images/pattern-background-desktop.svg);background-repeat:no-repeat;border-radius:.625rem;display:flex;height:50.625rem;justify-content:center;overflow:hidden;padding:4.375rem 0;width:81.25rem}@media (max-width:39.9375em){main{margin:0 auto;padding:.625rem;width:100%}}@media (max-width:71.8125em){main{height:100vh;width:100%}}.container{border-radius:.9375rem;overflow:hidden}@media (max-width:39.9375em){.container{padding:0}}.card{background-color:#fff;box-shadow:0 0 5px 5px rgba(0,0,0,.116);height:43.75rem;width:25.3125rem}.card a{color:#3829e0}@media (max-width:39.9375em){.card{height:43.125rem!important;width:21.25rem!important}}@media (max-width:71.8125em){.card{height:49.375rem;margin:auto 0;width:28.125rem}}.card__title{font-size:1.5625rem;font-weight:900;margin-bottom:1.875rem;margin-top:2.5rem;text-align:center}.card__summary{color:var(--text-color);font-weight:500;margin-bottom:2.8125rem;text-align:center}.card__plan{align-items:center;background-color:#f5f7ff;border-radius:.3125rem;display:flex;height:5.125rem;justify-content:space-between;margin:0 auto;position:relative;width:20.125rem}.card__plan--image{padding-left:1.25rem}.card__plan--description{font-weight:500;left:25%;position:absolute}.card__plan--description--cost{color:gray}.card__plan--change{padding-right:1.25rem}.card__payment{margin-top:2.5rem}.card__payment--btn{align-items:center;background-color:#3829e0;border-radius:.625rem;box-shadow:0 5px 10px #8179d8;display:flex;height:2.75rem;justify-content:center;margin:0 auto;width:20rem}.card__payment--btn a{color:#fff;font-weight:700;text-decoration:none}.card__payment--cancel{padding-top:1.875rem;text-align:center}.card__payment--cancel a{color:gray;text-decoration:none}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root{
+  --font-body:"Red Hat Display",sans-serif;
+  --white:#fff;
+  --black:#000;
+  --text-color:gray
+}
+html{
+box-sizing:border-box;
+font-size:100%
+}
+*,:after,:before{
+  box-sizing:inherit
+}
+body{
+ font-family:var(--font-body);
+  margin:0;
+  padding:4.375rem 1.875rem;
+  scroll-behavior:smooth}
+@media (max-width:39.9375em)
+{body{padding:0}}
+h1,h2,h3{line-height:1.1;margin-top:0}a,a:active,a:visited{text-decoration:underline}.container{margin:0 auto;max-width:69.375rem;padding:0 1.5rem}@media (min-width:71.875em){.container{padding:0;-webkit-transform:translate(0);transform:translate(0)}}main{background-image:url(../../../images/pattern-background-desktop.svg);background-repeat:no-repeat;border-radius:.625rem;display:flex;height:50.625rem;justify-content:center;overflow:hidden;padding:4.375rem 0;width:81.25rem}@media (max-width:39.9375em){main{margin:0 auto;padding:.625rem;width:100%}}@media (max-width:71.8125em){main{height:100vh;width:100%}}.container{border-radius:.9375rem;overflow:hidden}@media (max-width:39.9375em){.container{padding:0}}.card{background-color:#fff;box-shadow:0 0 5px 5px rgba(0,0,0,.116);height:43.75rem;width:25.3125rem}.card a{color:#3829e0}@media (max-width:39.9375em){.card{height:43.125rem!important;width:21.25rem!important}}@media (max-width:71.8125em){.card{height:49.375rem;margin:auto 0;width:28.125rem}}.card__title{font-size:1.5625rem;font-weight:900;margin-bottom:1.875rem;margin-top:2.5rem;text-align:center}.card__summary{color:var(--text-color);font-weight:500;margin-bottom:2.8125rem;text-align:center}.card__plan{align-items:center;background-color:#f5f7ff;border-radius:.3125rem;display:flex;height:5.125rem;justify-content:space-between;margin:0 auto;position:relative;width:20.125rem}.card__plan--image{padding-left:1.25rem}.card__plan--description{font-weight:500;left:25%;position:absolute}.card__plan--description--cost{color:gray}.card__plan--change{padding-right:1.25rem}.card__payment{margin-top:2.5rem}.card__payment--btn{align-items:center;background-color:#3829e0;border-radius:.625rem;box-shadow:0 5px 10px #8179d8;display:flex;height:2.75rem;justify-content:center;margin:0 auto;width:20rem}.card__payment--btn a{color:#fff;font-weight:700;text-decoration:none}.card__payment--cancel{padding-top:1.875rem;text-align:center}.card__payment--cancel a{color:gray;text-decoration:none}
 /*# sourceMappingURL=style.css.map */
